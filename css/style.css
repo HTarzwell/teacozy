@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+}
+/** Header Section **/
+header {
+	height: 80px;
+	padding: 10px;
+	display: flex;
+	border-bottom: 1px solid seashell;
+	justify-content: space-between;
+}
+nav {
+	display: flex;
+	align-self: center;
+	justify-content: space-between;
+}
+nav span {
+	padding: 13px;
+	text-decoration: underline;
+}
+.logo {
+	height: 50px;
+}
+/** Mission and Hero Banner Section **/
+.hero {
+	background-image: url("mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+	border: 2px solid red;
+}
+.mission {
+	background-color: black;
+	border: 2px solid green;
+}
+/** Seasonal Teas Section **/
+.teabox img {
+	height: 200px;
+	width: 300px;
+}
+/** Location Section **/
+.locations {
+	background-image: url("locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+}
